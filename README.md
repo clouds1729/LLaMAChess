@@ -154,7 +154,7 @@ http://localhost:5500/index.html
 
 ## 🎥 Demo
 
-> Coming soon...
+> (https://drive.google.com/file/d/1_gbIt_gQXg1UJ5YQO1oWjlbkiaLZ9hiU/view?usp=sharing)
 
 ---
 

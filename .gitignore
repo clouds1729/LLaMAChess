@@ -1,0 +1,34 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+# Ignore local environment
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore LLaMA model files
+*.gguf
+
+# Ignore logs
+*.log
+
+# Ignore Mac + system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore node/npm stuff (in case frontend uses it)
+node_modules/
+npm-debug.log
+
+# Ignore chessboard/game save data if any
+*.pgn
+*.uci
+*.bin

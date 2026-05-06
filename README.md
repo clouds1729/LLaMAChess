@@ -1,8 +1,3 @@
-Here’s a cleaned-up and GitHub-ready version of your markdown `README.md` file — now fully working with correct formatting, headings, and inline code blocks. ✅
-
-You can paste this directly into your `README.md` file:
-
-```markdown
 # ♟️ LLaMAChess
 
 **Talk chess with a local LLaMA model.**  

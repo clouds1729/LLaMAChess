@@ -83,6 +83,34 @@ Example expected location:
 backend/models/llama.gguf
 ```
 
+
+## Backend reliability commands
+
+Run quick health check:
+
+```bash
+curl http://127.0.0.1:8000/health
+```
+
+Expected response:
+
+```json
+{"status":"ok"}
+```
+
+Run backend tests:
+
+```bash
+cd backend
+pytest -q
+```
+
+If you get a `503` from `POST /ask`, the backend is up but the model file is missing. Place your GGUF file at:
+
+```text
+backend/models/llama.gguf
+```
+
 ## Run frontend
 
 From repo root in a second terminal:
